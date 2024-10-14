@@ -12,5 +12,8 @@
   },
   "scripts": {
     "db:format-prisma": "yarn prisma-case-format --file prisma/schema.prisma -p --map-table-case snake,plural --map-field-case snake"
+  },
+  "volta": {
+    "node": "20.17.0"
   }
 }
