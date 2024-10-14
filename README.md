@@ -14,3 +14,10 @@ docker compose up -d
 yarn install
 yarn prisma migrate dev
 ```
+
+## テーブルドキュメントの生成
+
+```
+brew install k1LoW/tap/tbls
+tbls doc "postgres://postgres:postgres@localhost:5432/app?sslmode=disable"
+```
